@@ -31,6 +31,8 @@ from .plot_ridge import plot_ridge_n_samples
 from .plot_overfitting import plot_overfitting
 from .plot_svm import plot_svm_linear, plot_svm_margins, plot_svm_kernels,  plot_svm_margins_nonlin
 from .plot_overfitting import plot_overfitting
+from .plot_classifiers import plot_classifiers
+
 
 __all__ = ['plot_linear_svc_regularization',
            "plot_animal_tree", "plot_tree_progressive",
@@ -74,5 +76,6 @@ __all__ = ['plot_linear_svc_regularization',
            'plot_svm_margins',
            'plot_svm_kernels',
            'plot_svm_margins_nonlin',
-	   'plot_overfitting'
+	   'plot_overfitting',
+	   'plot_classifiers'
            ]
